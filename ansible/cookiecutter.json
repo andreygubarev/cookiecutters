@@ -4,6 +4,11 @@
             "path": "./templates/ansible_collection/",
             "title": "Ansible Collection",
             "description": "Template for Ansible Collection"
-        }
+        },
+        "ansible_role": {
+            "path": "./templates/ansible_role/",
+            "title": "Ansible Role",
+            "description": "Template for Ansible Role"
+        },
     }
 }

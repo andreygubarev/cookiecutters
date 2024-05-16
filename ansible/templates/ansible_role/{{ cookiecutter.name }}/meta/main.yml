@@ -1,0 +1,18 @@
+galaxy_info:
+  author: {{ cookiecutter.author_name }} <{{ cookiecutter.author_email }}> ({{ cookiecutter.author_url }})
+  description: {{ cookiecutter.description }}
+  company: {{ cookiecutter.namespace }}
+
+  license: MIT
+
+  min_ansible_version: '{{ cookiecutter.ansible_version_min }}'
+
+  platforms: []
+  # platforms:
+  # - name: Ubuntu
+  #   versions:
+  #   - focal
+
+  galaxy_tags: []
+
+dependencies: []
