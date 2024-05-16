@@ -4,6 +4,11 @@
             "path": "./terraform/",
             "title": "Terraform",
             "description": "Templates for Terraform"
+        },
+        "docker": {
+            "path": "./docker/",
+            "title": "Docker",
+            "description": "Templates for Docker Images"
         }
     }
 }
