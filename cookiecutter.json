@@ -1,0 +1,9 @@
+{
+    "templates": {
+        "terraform": {
+            "path": "./terraform/",
+            "title": "Terraform",
+            "description": "Templates for Terraform"
+        }
+    }
+}

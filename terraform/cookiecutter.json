@@ -1,0 +1,19 @@
+{
+    "templates": {
+        "terraform": {
+            "path": "./templates/terraform/",
+            "title": "Terraform Project",
+            "description": "Template for Terraform Project"
+        },
+        "terraform_module": {
+            "path": "./templates/terraform_module/",
+            "title": "Terraform Module",
+            "description": "Template for Terraform Module"
+        },
+        "terraform_workspace": {
+            "path": "./templates/terraform_workspace/",
+            "title": "Terraform Workspace",
+            "description": "Template for Terraform Workspace"
+        }
+    }
+}

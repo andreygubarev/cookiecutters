@@ -1,0 +1,32 @@
+name: Github Release
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+    tags:
+      - "v*.*.*"
+
+jobs:
+  release:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check if pre-release
+        id: prerelease
+        run: |
+          echo "prerelease=$(if [[ "${{ github.ref }}" == *"-rc"* ]]; then echo "true"; else echo "false"; fi)" >> "$GITHUB_OUTPUT"
+
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        with:
+          prerelease: ${{ steps.prerelease.outputs.prerelease }}
+          generate_release_notes: true
