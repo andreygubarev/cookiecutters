@@ -18,12 +18,12 @@ prerequisities:  ## Install Prerequisities
 
 .PHONY: module
 module:  ## Create a new Terraform Module
-	cookiecutter gh:andreygubarev/cookiecutter-terraform \
-		--directory=templates/terraform_module \
+	cookiecutter gh:andreygubarev/cookiecutters \
+		--directory=terraform/templates/terraform_module \
 		--output-dir=modules
 
 .PHONY: workspace
 workspace:  ## Create a new Terraform Workspace
-	cookiecutter gh:andreygubarev/cookiecutter-terraform \
-		--directory=templates/terraform_workspace \
+	cookiecutter gh:andreygubarev/cookiecutters \
+		--directory=terraform/templates/terraform_workspace \
 		--output-dir=workspaces
