@@ -9,6 +9,6 @@
             "path": "./templates/ansible_role/",
             "title": "Ansible Role",
             "description": "Template for Ansible Role"
-        },
+        }
     }
 }
