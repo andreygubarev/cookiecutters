@@ -1,0 +1,11 @@
+{
+    "name": "",
+    "namespace": "",
+    "description": "",
+    "author_name": "",
+    "author_email": "",
+    "author_url": "",
+    "repository": "github.com",
+    "ansible_version": "9.0",
+    "ansible_core_version": "2.16"
+}

@@ -1,0 +1,25 @@
+namespace: {{ cookiecutter.namespace }}
+name: {{ cookiecutter.name }}
+version: 1.0.0
+
+readme: README.md
+
+authors:
+  - {{ cookiecutter.author_name }} <{{ cookiecutter.author_email }}> ({{ cookiecutter.author_url }})
+
+description: {{ cookiecutter.description }}
+license_file: LICENSE
+
+tags: []
+
+dependencies: {}
+
+repository: https://{{ cookiecutter.repository }}/{{ cookiecutter.namespace }}/ansible-{{ cookiecutter.name }}
+documentation: https://{{ cookiecutter.repository }}/{{ cookiecutter.namespace }}/ansible-{{ cookiecutter.name }}
+homepage: https://{{ cookiecutter.repository }}/{{ cookiecutter.namespace }}/ansible-{{ cookiecutter.name }}
+issues: https://{{ cookiecutter.repository }}/{{ cookiecutter.namespace }}/ansible-{{ cookiecutter.name }}/issues
+
+build_ignore:
+  - Makefile
+  - .git
+  - .gitignore

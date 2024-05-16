@@ -1,0 +1,1 @@
+# `{{ cookiecutter.namespace }}.{{ cookiecutter.name }}`

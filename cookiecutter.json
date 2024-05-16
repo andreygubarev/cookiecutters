@@ -5,10 +5,15 @@
             "title": "Terraform",
             "description": "Templates for Terraform"
         },
+        "ansible": {
+            "path": "./ansible/",
+            "title": "Ansible",
+            "description": "Templates for Ansible"
+        },
         "docker": {
             "path": "./docker/",
             "title": "Docker",
-            "description": "Templates for Docker Images"
+            "description": "Templates for Docker"
         }
     }
 }

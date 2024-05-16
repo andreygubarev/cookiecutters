@@ -1,0 +1,9 @@
+{
+    "templates": {
+        "ansible_collection": {
+            "path": "./templates/ansible_collection/",
+            "title": "Ansible Collection",
+            "description": "Template for Ansible Collection"
+        }
+    }
+}
