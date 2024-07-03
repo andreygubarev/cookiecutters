@@ -12,7 +12,7 @@ remote_state {
   config = {
     region         = ""
     dynamodb_table = ""
-    bucket         = "terraform/${get_terragrunt_dir()}/terraform.tfstate"
+    bucket         = "terraform/${path_relative_to_include()}/terraform.tfstate"
     key            = ""
     encrypt        = true
 

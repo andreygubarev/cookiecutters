@@ -1,7 +1,15 @@
 include "root" {
-  path = find_in_parent_folders("terragrunt.hcl")
+  path = find_in_parent_folders()
 }
 
 terraform {
   source = "${path_relative_from_include()}//modules/{{ cookiecutter.name }}/"
 }
+
+### Dependencies and Inputs ###################################################
+
+# dependency "" {
+#     config_path = ""
+# }
+
+inputs = {}
