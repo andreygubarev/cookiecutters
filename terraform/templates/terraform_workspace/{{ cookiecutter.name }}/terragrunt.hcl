@@ -13,10 +13,10 @@ remote_state {
     if_exists = "overwrite"
   }
   config = {
-    bucket         = ""
-    dynamodb_table = ""
-    key            = ""
     region         = ""
+    dynamodb_table = ""
+    bucket         = ""
+    key            = ""
     encrypt        = true
 
     skip_bucket_enforced_tls           = false
