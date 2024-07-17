@@ -27,8 +27,6 @@ terraform {
     source = "${path_relative_from_include()}//modules/{{ cookiecutter.name }}/"
 }
 
-### Dependencies and Inputs ###################################################
-
 # dependency "" {
 #     config_path = ""
 # }
