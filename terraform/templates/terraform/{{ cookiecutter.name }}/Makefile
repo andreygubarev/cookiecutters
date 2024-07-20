@@ -7,15 +7,6 @@ help: ## Show this help
 format:  ## Format Terraform files
 	terraform fmt -recursive
 
-.PHONY: install
-install:  ## Install Terraform and Terragrunt
-	tfenv install
-	tgenv install
-
-.PHONY: prerequisities
-prerequisities:  ## Install Prerequisities
-	brew install direnv sops tfenv tgenv
-
 .PHONY: module
 module:  ## Create a new Terraform Module
 	cookiecutter gh:andreygubarev/cookiecutters \
