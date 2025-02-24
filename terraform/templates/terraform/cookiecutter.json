@@ -1,5 +1,5 @@
 {
   "name": "",
-  "terraform_version": "1.5.6",
-  "terragrunt_version": "0.66.5"
+  "terraform_version": "1.5.7",
+  "terragrunt_version": "0.73.13"
 }
